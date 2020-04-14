@@ -3,6 +3,7 @@ import { Row, Col, List } from 'antd'
 import Header from '../components/Header'
 import Head from 'next/head'
 import Author from '../components/Author'
+import Advert from '../components/Advert'
 import {
   CalendarOutlined,
   VideoCameraOutlined,
@@ -68,6 +69,7 @@ function Home() {
         </Col>
         <Col className='comm-right' xs={0} sm={0} md={7} lg={5} xl={4}>
           <Author />
+          <Advert />
         </Col>
       </Row>
     </>
