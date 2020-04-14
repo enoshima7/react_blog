@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import Head from 'next/head'
 import Author from '../components/Author'
 import Advert from '../components/Advert'
+import Footer from '../components/Footer'
 import {
   CalendarOutlined,
   VideoCameraOutlined,
@@ -72,6 +73,7 @@ function Home() {
           <Advert />
         </Col>
       </Row>
+      <Footer />
     </>
   )
 }
