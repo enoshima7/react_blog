@@ -2,7 +2,7 @@
   background-color: #fff;
   padding: 0.4rem;
   overflow: hidden;
-  height: 3rem;
+  height: 3.2rem;
   border-bottom: 1px solid #ccc;
 }
 .header_logo {
@@ -17,9 +17,9 @@
   padding-left: 0.3rem;
 }
 .antd-menu {
-  line-height: 3rem;
+  line-height: 2.8rem;
 }
 .antd-menu-item {
-  font-size: 0.7rem !important;
+  font-size: 1rem !important;
   padding: 0 1rem;
 }

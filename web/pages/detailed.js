@@ -1,11 +1,11 @@
 import { Row, Col } from 'antd'
-import Header from '../components/Header'
 import Head from 'next/head'
-function index() {
+import Header from '../components/Header'
+function detailed() {
   return (
     <>
       <Head>
-        <title>Home</title>
+        <title>Detailed</title>
       </Head>
       <Header />
       <Row className='comm-main' type='flex' justify='center'>
@@ -19,4 +19,4 @@ function index() {
     </>
   )
 }
-export default index
+export default detailed

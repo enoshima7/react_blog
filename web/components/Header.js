@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className='header'>
       <Row type='flex' justify='center'>
-        <Col xs={24} sm={24} md={10} lg={10} xl={10}>
+        <Col xs={24} sm={24} md={10} lg={15} xl={12}>
           <span className='header_logo'>Will Duan</span>
           <span className='header_txt'>前端开发工程师</span>
         </Col>
