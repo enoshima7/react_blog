@@ -1,11 +1,10 @@
 import { Button } from 'antd'
+import Header from '../components/Header'
 function index() {
   return (
     <>
+      <Header />
       <div>HOME</div>
-      <div>
-        <Button>点击</Button>
-      </div>
     </>
   )
 }
